@@ -3,15 +3,16 @@ public class truck {
 
     public int getWheels (){
         return Wheels;
+
     }
 
-    public void setWheels(int w){
+  public void setWheels (int w){
         Wheels = w;
-    }
+  }
 
     public truck(){
         Wheels = 4;
-        System.out.println("This truck has 4 wheels");
+        //System.out.println("This truck has 4 wheels");
     }
 
 }
